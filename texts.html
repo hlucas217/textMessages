@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<title>Texts</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style type="text/css">
+		
+		* {
+			font-family: 'Open Sans';
+		}
+
+		.align {
+			position: relative;
+			height: 100px;
+			width: 200px;
+		}
+
+		.right {
+			left: 10%;
+		}
+
+		.speech-bubble-right {
+		    background-color: #36ff33;
+		    border: 1px solid #c8c8c8;
+		    border-radius: 25px;
+		    width: 300px;
+		    text-align: center;
+		    padding: 20px;
+		    position: absolute;
+		    color: white;
+		}
+
+		.speech-bubble-right .arrow-right {
+		    border-style: solid;
+		    position: absolute;
+		}
+		 
+		.bottom-right {
+		    border-color: #c8c8c8 transparent transparent transparent;
+		    border-width: 8px 8px 0px 8px;
+		    bottom: -8px;
+		}
+
+		.bottom-right:after {
+		    border-color: #36ff33 transparent transparent transparent;
+		    border-style: solid;
+		    border-width: 7px 7px 0px 7px;
+		    bottom: 1px;
+		    content: "";
+		    position: absolute;
+		    left: -7px;
+		}
+
+		.speech-bubble-left {
+		    background-color: #f8f8f8;
+		    border: 1px solid #c8c8c8;
+		    border-radius: 25px;
+		    width: 300px;
+		    text-align: center;
+		    padding: 20px;
+		    position: absolute;
+		}
+
+		.speech-bubble-left .arrow-left {
+		    border-style: solid;
+		    position: absolute;
+		}
+		 
+		.bottom-left {
+		    border-color: #c8c8c8 transparent transparent transparent;
+		    border-width: 8px 8px 0px 8px;
+		    bottom: -8px;
+		}
+
+		.bottom-left:after {
+		    border-color: #f8f8f8 transparent transparent transparent;
+		    border-style: solid;
+		    border-width: 7px 7px 0px 7px;
+		    bottom: 1px;
+		    content: "";
+		    position: absolute;
+		    left: -7px;
+		}
+
+		
+
+	</style>
+</head>
+
+<body>
+		<div class="align right">
+			<div class="speech-bubble-right">
+			  <div class="arrow-right bottom-right"></div>
+			  Hey Alan...are you awake?
+			</div>
+		</div>
+
+		<div class="align right">
+			<div class="speech-bubble-right">
+			  <div class="arrow-right bottom-right"></div>
+			  If you are, do you want to go to dinner?
+			</div>
+		</div>
+
+		<div class="align">
+			<div class="speech-bubble-left">
+			  <div class="arrow-left bottom-left"></div>
+			  Nope. Sorry, I am sleeping. Hee hee. JK
+			</div>
+		</div>
+
+		<div class="align right">
+			<div class="speech-bubble-right">
+			  <div class="arrow-right bottom-right"></div>
+			  You are a weirdo. Do you want to go?
+			</div>
+		</div>
+
+		<div class="align">
+			<div class="speech-bubble-left">
+			  <div class="arrow-left bottom-left"></div>
+			  Sure! Where should we go?
+			</div>
+		</div>
+
+</body>
+
+</html>
